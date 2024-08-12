@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Mable Hotel</title>
+    <style>
+        html{
+            background-color: antiquewhite;
+            font-family: "Radio Canada Big", sans-serif;
+            margin: 45px;
+
+
+        }
+        .main{
+            flex: 1;
+        }
+        h1{
+            font-size: 4.5rem;
+            text-transform: capitalize;
+        }
+        h2{
+            font-size: 3rem;
+            text-transform: capitalize;
+        }
+        .comfort{
+            color: navy;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        .footer{
+            text-align: right;
+            color: navy;
+            clear: both;
+        }
+        .beautiful{
+            height: 200px;
+            margin-right: 60px;
+            float: left;
+
+        }
+        .card{
+            width: 45%;
+        }
+        @media(max-width:650px){
+            h1{
+                font-size: 3rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+            .card{
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+
+
+            }
+            .beautiful{
+                width: 100%;
+                display: inline;
+                margin-bottom: 20px;
+            }
+            .logo{
+                width: 100%;
+            }
+
+        }
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <img class="logo" src="./images/logo.png" alt="logo"/>
+        <h1>welcome to mable guess house</h1>
+         <h2>where your <span class="comfort">comfort</span> is our priority</h2>
+          <div class="left card">
+            <img class="beautiful" src="./images/beautiful.jpg"/>
+            <h2>beauty:</h2>
+            <p>
+                "Welcome to the Mabel Hotel, a haven of elegance and sophistication. Nestled in a prime location, this stunning hotel boasts breathtaking architecture and beautifully landscaped gardens, creating a tranquil oasis in the heart of the city. As you step inside, you'll be greeted by the warm glow of luxurious decor, plush furnishings, and impeccable attention to detail. With spacious rooms, world-class amenities, and exceptional service, the Mabel Hotel is the epitome of comfort and refinement. Whether you're seeking a romantic getaway, a business retreat, or a relaxing escape, this magnificent hotel promises an unforgettable experience. Come and indulge in the beauty of the Mabel Hotel – where every moment is a masterpiece."
+
+            </p>
+
+          </div>
+        <div class="right card">
+            <img class="beautiful" src="./images/construction.jpg"/>
+            <h2>Team work:</h2>
+            <p>
+                "At the heart of the Mabel Hotel's success is a dedicated team of professionals who embody the spirit of collaboration and excellence. Our staff work tirelessly together to ensure every guest receives a warm welcome, personalized service, and an unforgettable stay. From our front desk team to our housekeeping staff, chefs, and management, every individual plays a vital role in creating a seamless and exceptional experience. Through open communication, mutual respect, and a shared passion for hospitality, our team achieves the highest standards of service, making the Mabel Hotel a true leader in the industry."
+
+            </p>
+
+        </div> 
+        <footer class="footer">
+            Copyright mable Guess house
+        </footer> 
+
+
+    </div>
+</body>
+</html>
